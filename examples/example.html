@@ -113,6 +113,7 @@
   $(function () {
     if (isSupportedFileAPI()) {
       $('.src-file').change(function () {
+        debugger;
         var selectedFile = this.files[0];
         if (!selectedFile) {
           $('.msg-info, .incorrect-type').hide();
